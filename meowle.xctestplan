@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "F5D7359A-1455-46AD-B88E-D9679EDB00A6",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:meowle.xcodeproj",
+      "identifier" : "9C6FC8102B5BCC6D00DACA64",
+      "name" : "meowle"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:meowle.xcodeproj",
+        "identifier" : "9C6FC8302B5BCC6E00DACA64",
+        "name" : "meowleUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

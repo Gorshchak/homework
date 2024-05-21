@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3735C1712BCBE3B3000CA7AD /* AddNewCatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3735C1702BCBE3B3000CA7AD /* AddNewCatPage.swift */; };
+		37A60BFB2BCA81F700B9C499 /* core_cats_get_by_id.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A60BFA2BCA81F700B9C499 /* core_cats_get_by_id.json */; };
+		37A60BFD2BCA840300B9C499 /* photos_cats_15026_photos.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A60BFC2BCA840300B9C499 /* photos_cats_15026_photos.json */; };
+		37A60BFF2BCA845B00B9C499 /* photos_cats_17023_upload.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A60BFE2BCA845B00B9C499 /* photos_cats_17023_upload.json */; };
+		37A60C012BCA849000B9C499 /* core_cats_add.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A60C002BCA849000B9C499 /* core_cats_add.json */; };
+		37A60C032BCA84C500B9C499 /* core_cats_save-description.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A60C022BCA84C500B9C499 /* core_cats_save-description.json */; };
+		37A60C052BCA851000B9C499 /* likes_cats_14203_likes.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A60C042BCA851000B9C499 /* likes_cats_14203_likes.json */; };
+		37A60C072BCA8A8600B9C499 /* AddNewCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A60C062BCA8A8600B9C499 /* AddNewCatUITests.swift */; };
+		37DCE6C22BC57A2D00710D90 /* MeowleAuthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCE6C12BC57A2D00710D90 /* MeowleAuthPage.swift */; };
+		37DCE6C42BC57B2400710D90 /* MeowleSearchCatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCE6C32BC57B2400710D90 /* MeowleSearchCatPage.swift */; };
+		37DCE6C62BC57EBA00710D90 /* MeowleSearchCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCE6C52BC57EBA00710D90 /* MeowleSearchCatUITests.swift */; };
+		37DCE6C82BC58F8200710D90 /* MeowleRatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCE6C72BC58F8200710D90 /* MeowleRatingUITests.swift */; };
+		37DCE6CA2BC58F9F00710D90 /* MeowleRatingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCE6C92BC58F9F00710D90 /* MeowleRatingPage.swift */; };
+		37DCE6CC2BC5BC8D00710D90 /* rating.json in Resources */ = {isa = PBXBuildFile; fileRef = 37DCE6CB2BC5BC8D00710D90 /* rating.json */; };
+		565B6240B1ADCF0F4D26A45A /* Pods_meowle_meowleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C632AAC971457729C7554FD /* Pods_meowle_meowleUITests.framework */; };
+		9C61244D2BC55AB20079CE48 /* likes_cats_rating.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C61244C2BC55AB20079CE48 /* likes_cats_rating.json */; };
+		9C6FC8152B5BCC6D00DACA64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6FC8142B5BCC6D00DACA64 /* AppDelegate.swift */; };
+		9C6FC8192B5BCC6D00DACA64 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6FC8182B5BCC6D00DACA64 /* SearchViewController.swift */; };
+		9C6FC81E2B5BCC6E00DACA64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FC81D2B5BCC6E00DACA64 /* Assets.xcassets */; };
+		9C6FC8212B5BCC6E00DACA64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FC81F2B5BCC6E00DACA64 /* LaunchScreen.storyboard */; };
+		9C6FC8382B5BCC6E00DACA64 /* meowleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6FC8372B5BCC6E00DACA64 /* meowleUITestsLaunchTests.swift */; };
+		9C6FC8462B5BD53800DACA64 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6FC8452B5BD53800DACA64 /* RatingViewController.swift */; };
+		9C72CFD02B6FA11D0024AE65 /* RatingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C72CFCF2B6FA11D0024AE65 /* RatingCell.swift */; };
+		9C72CFD22B6FADF30024AE65 /* UploadNewCatResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C72CFD12B6FADF30024AE65 /* UploadNewCatResponce.swift */; };
+		9C72CFD42B6FB5510024AE65 /* CatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C72CFD32B6FB5510024AE65 /* CatViewController.swift */; };
+		9C87A1DD2BA714DF005771DF /* core_cats_search.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C87A1DC2BA714DF005771DF /* core_cats_search.json */; };
+		9C87A1DF2BA72055005771DF /* core_cats_allByLetter.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C87A1DE2BA72055005771DF /* core_cats_allByLetter.json */; };
+		9C87A1E32BA72261005771DF /* BasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87A1E22BA72261005771DF /* BasePage.swift */; };
+		9C87A1E92BA8D9FC005771DF /* FavCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87A1E82BA8D9FC005771DF /* FavCache.swift */; };
+		9CC4EDCA2B6E556300426774 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4EDC92B6E556300426774 /* SearchResultsViewController.swift */; };
+		9CC4EDCC2B6E565C00426774 /* AddCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4EDCB2B6E565C00426774 /* AddCatViewController.swift */; };
+		9CC4EDCE2B6E57F500426774 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4EDCD2B6E57F500426774 /* NetworkService.swift */; };
+		9CC4EDD32B6E65A000426774 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4EDD22B6E65A000426774 /* SearchResultCell.swift */; };
+		9CC4EDD52B6E719500426774 /* CatsSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4EDD42B6E719500426774 /* CatsSearchResult.swift */; };
+		9CC4EDD72B6E732F00426774 /* RatingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4EDD62B6E732F00426774 /* RatingResponse.swift */; };
+		9CC4EDD92B6E760A00426774 /* CatByIdResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4EDD82B6E760A00426774 /* CatByIdResponce.swift */; };
+		9CC4EDDB2B6E761600426774 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4EDDA2B6E761600426774 /* Cat.swift */; };
+		9CC989DC2B83DDEE00BB2311 /* ImageResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC989DB2B83DDEE00BB2311 /* ImageResolver.swift */; };
+		9CC989DE2B83DE4A00BB2311 /* DispatchQueue+performOnMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC989DD2B83DE4A00BB2311 /* DispatchQueue+performOnMain.swift */; };
+		9CFC75192B9751E00069705F /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFC75182B9751E00069705F /* AuthViewController.swift */; };
+		9CFC751B2B9758020069705F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFC751A2B9758020069705F /* SettingsViewController.swift */; };
+		E62C01FD50CC495E83649AD4 /* Pods_meowle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B5B6FD731959884C412E0 /* Pods_meowle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C6FC8322B5BCC6E00DACA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C6FC8092B5BCC6D00DACA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C6FC8102B5BCC6D00DACA64;
+			remoteInfo = meowle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C632AAC971457729C7554FD /* Pods_meowle_meowleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meowle_meowleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B5B6FD731959884C412E0 /* Pods_meowle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meowle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3735C1702BCBE3B3000CA7AD /* AddNewCatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCatPage.swift; sourceTree = "<group>"; };
+		37A60BFA2BCA81F700B9C499 /* core_cats_get_by_id.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = core_cats_get_by_id.json; sourceTree = "<group>"; };
+		37A60BFC2BCA840300B9C499 /* photos_cats_15026_photos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = photos_cats_15026_photos.json; sourceTree = "<group>"; };
+		37A60BFE2BCA845B00B9C499 /* photos_cats_17023_upload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = photos_cats_17023_upload.json; sourceTree = "<group>"; };
+		37A60C002BCA849000B9C499 /* core_cats_add.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = core_cats_add.json; sourceTree = "<group>"; };
+		37A60C022BCA84C500B9C499 /* core_cats_save-description.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "core_cats_save-description.json"; sourceTree = "<group>"; };
+		37A60C042BCA851000B9C499 /* likes_cats_14203_likes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = likes_cats_14203_likes.json; sourceTree = "<group>"; };
+		37A60C062BCA8A8600B9C499 /* AddNewCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCatUITests.swift; sourceTree = "<group>"; };
+		37DCE6C12BC57A2D00710D90 /* MeowleAuthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleAuthPage.swift; sourceTree = "<group>"; };
+		37DCE6C32BC57B2400710D90 /* MeowleSearchCatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleSearchCatPage.swift; sourceTree = "<group>"; };
+		37DCE6C52BC57EBA00710D90 /* MeowleSearchCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleSearchCatUITests.swift; sourceTree = "<group>"; };
+		37DCE6C72BC58F8200710D90 /* MeowleRatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleRatingUITests.swift; sourceTree = "<group>"; };
+		37DCE6C92BC58F9F00710D90 /* MeowleRatingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleRatingPage.swift; sourceTree = "<group>"; };
+		37DCE6CB2BC5BC8D00710D90 /* rating.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rating.json; sourceTree = "<group>"; };
+		54C47CB863A90DA7C1BBB964 /* Pods-meowle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meowle.release.xcconfig"; path = "Target Support Files/Pods-meowle/Pods-meowle.release.xcconfig"; sourceTree = "<group>"; };
+		74BBB720B26110DA59C25107 /* Pods-meowle-meowleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meowle-meowleUITests.debug.xcconfig"; path = "Target Support Files/Pods-meowle-meowleUITests/Pods-meowle-meowleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78C1794913C2C3545A00949E /* Pods-meowle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meowle.debug.xcconfig"; path = "Target Support Files/Pods-meowle/Pods-meowle.debug.xcconfig"; sourceTree = "<group>"; };
+		9C61244C2BC55AB20079CE48 /* likes_cats_rating.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = likes_cats_rating.json; sourceTree = "<group>"; };
+		9C6FC8112B5BCC6D00DACA64 /* meowle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meowle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6FC8142B5BCC6D00DACA64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C6FC8182B5BCC6D00DACA64 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9C6FC81D2B5BCC6E00DACA64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C6FC8202B5BCC6E00DACA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C6FC8222B5BCC6E00DACA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C6FC8312B5BCC6E00DACA64 /* meowleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meowleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6FC8372B5BCC6E00DACA64 /* meowleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meowleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C6FC8452B5BD53800DACA64 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		9C72CFCF2B6FA11D0024AE65 /* RatingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingCell.swift; sourceTree = "<group>"; };
+		9C72CFD12B6FADF30024AE65 /* UploadNewCatResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNewCatResponce.swift; sourceTree = "<group>"; };
+		9C72CFD32B6FB5510024AE65 /* CatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewController.swift; sourceTree = "<group>"; };
+		9C87A1DC2BA714DF005771DF /* core_cats_search.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = core_cats_search.json; sourceTree = "<group>"; };
+		9C87A1DE2BA72055005771DF /* core_cats_allByLetter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = core_cats_allByLetter.json; sourceTree = "<group>"; };
+		9C87A1E22BA72261005771DF /* BasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePage.swift; sourceTree = "<group>"; };
+		9C87A1E82BA8D9FC005771DF /* FavCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavCache.swift; sourceTree = "<group>"; };
+		9CC4EDC92B6E556300426774 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		9CC4EDCB2B6E565C00426774 /* AddCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCatViewController.swift; sourceTree = "<group>"; };
+		9CC4EDCD2B6E57F500426774 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9CC4EDD22B6E65A000426774 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		9CC4EDD42B6E719500426774 /* CatsSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsSearchResult.swift; sourceTree = "<group>"; };
+		9CC4EDD62B6E732F00426774 /* RatingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingResponse.swift; sourceTree = "<group>"; };
+		9CC4EDD82B6E760A00426774 /* CatByIdResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatByIdResponce.swift; sourceTree = "<group>"; };
+		9CC4EDDA2B6E761600426774 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		9CC989DB2B83DDEE00BB2311 /* ImageResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResolver.swift; sourceTree = "<group>"; };
+		9CC989DD2B83DE4A00BB2311 /* DispatchQueue+performOnMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+performOnMain.swift"; sourceTree = "<group>"; };
+		9CFC75182B9751E00069705F /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		9CFC751A2B9758020069705F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DFF3AA313511264F58766A50 /* Pods-meowle-meowleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meowle-meowleUITests.release.xcconfig"; path = "Target Support Files/Pods-meowle-meowleUITests/Pods-meowle-meowleUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C6FC80E2B5BCC6D00DACA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62C01FD50CC495E83649AD4 /* Pods_meowle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6FC82E2B5BCC6E00DACA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565B6240B1ADCF0F4D26A45A /* Pods_meowle_meowleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37DCE6BD2BC578F000710D90 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				37DCE6C52BC57EBA00710D90 /* MeowleSearchCatUITests.swift */,
+				37DCE6C72BC58F8200710D90 /* MeowleRatingUITests.swift */,
+				37A60C062BCA8A8600B9C499 /* AddNewCatUITests.swift */,
+				37DCE6C02BC57A0900710D90 /* PageObjects */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		37DCE6C02BC57A0900710D90 /* PageObjects */ = {
+			isa = PBXGroup;
+			children = (
+				9C87A1E22BA72261005771DF /* BasePage.swift */,
+				37DCE6C12BC57A2D00710D90 /* MeowleAuthPage.swift */,
+				37DCE6C32BC57B2400710D90 /* MeowleSearchCatPage.swift */,
+				37DCE6C92BC58F9F00710D90 /* MeowleRatingPage.swift */,
+				3735C1702BCBE3B3000CA7AD /* AddNewCatPage.swift */,
+			);
+			path = PageObjects;
+			sourceTree = "<group>";
+		};
+		9C6FC8082B5BCC6D00DACA64 = {
+			isa = PBXGroup;
+			children = (
+				9C6FC8132B5BCC6D00DACA64 /* meowle */,
+				9C6FC8342B5BCC6E00DACA64 /* meowleUITests */,
+				9C6FC8122B5BCC6D00DACA64 /* Products */,
+				FA47173B40DE6B96AABFDA11 /* Pods */,
+				E817DFB1E5F16526557EE452 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C6FC8122B5BCC6D00DACA64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C6FC8112B5BCC6D00DACA64 /* meowle.app */,
+				9C6FC8312B5BCC6E00DACA64 /* meowleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C6FC8132B5BCC6D00DACA64 /* meowle */ = {
+			isa = PBXGroup;
+			children = (
+				9C6FC8142B5BCC6D00DACA64 /* AppDelegate.swift */,
+				9CC989DD2B83DE4A00BB2311 /* DispatchQueue+performOnMain.swift */,
+				9CC4EDD02B6E5AF000426774 /* Presentation */,
+				9CC4EDCF2B6E5AE700426774 /* Service */,
+				9C6FC8442B5BD1BE00DACA64 /* Resources */,
+			);
+			path = meowle;
+			sourceTree = "<group>";
+		};
+		9C6FC8342B5BCC6E00DACA64 /* meowleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37DCE6BD2BC578F000710D90 /* Tests */,
+				9C87A1E12BA720DE005771DF /* Resources */,
+				9C6FC8372B5BCC6E00DACA64 /* meowleUITestsLaunchTests.swift */,
+			);
+			path = meowleUITests;
+			sourceTree = "<group>";
+		};
+		9C6FC8442B5BD1BE00DACA64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C6FC81D2B5BCC6E00DACA64 /* Assets.xcassets */,
+				9C6FC81F2B5BCC6E00DACA64 /* LaunchScreen.storyboard */,
+				9C6FC8222B5BCC6E00DACA64 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9C72CFCE2B6FA1150024AE65 /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				9C6FC8452B5BD53800DACA64 /* RatingViewController.swift */,
+				9C72CFCF2B6FA11D0024AE65 /* RatingCell.swift */,
+			);
+			path = Rating;
+			sourceTree = "<group>";
+		};
+		9C87A1E12BA720DE005771DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C87A1DC2BA714DF005771DF /* core_cats_search.json */,
+				9C61244C2BC55AB20079CE48 /* likes_cats_rating.json */,
+				9C87A1DE2BA72055005771DF /* core_cats_allByLetter.json */,
+				37DCE6CB2BC5BC8D00710D90 /* rating.json */,
+				37A60BFA2BCA81F700B9C499 /* core_cats_get_by_id.json */,
+				37A60BFC2BCA840300B9C499 /* photos_cats_15026_photos.json */,
+				37A60BFE2BCA845B00B9C499 /* photos_cats_17023_upload.json */,
+				37A60C002BCA849000B9C499 /* core_cats_add.json */,
+				37A60C022BCA84C500B9C499 /* core_cats_save-description.json */,
+				37A60C042BCA851000B9C499 /* likes_cats_14203_likes.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9CC4EDCF2B6E5AE700426774 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9CC4EDCD2B6E57F500426774 /* NetworkService.swift */,
+				9C87A1E82BA8D9FC005771DF /* FavCache.swift */,
+				9CC989DB2B83DDEE00BB2311 /* ImageResolver.swift */,
+				9CC989DA2B83DDB000BB2311 /* Model */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9CC4EDD02B6E5AF000426774 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9C6FC8182B5BCC6D00DACA64 /* SearchViewController.swift */,
+				9CFC75182B9751E00069705F /* AuthViewController.swift */,
+				9CFC751A2B9758020069705F /* SettingsViewController.swift */,
+				9CC4EDD12B6E659100426774 /* SearchResults */,
+				9CC4EDCB2B6E565C00426774 /* AddCatViewController.swift */,
+				9C72CFD32B6FB5510024AE65 /* CatViewController.swift */,
+				9C72CFCE2B6FA1150024AE65 /* Rating */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9CC4EDD12B6E659100426774 /* SearchResults */ = {
+			isa = PBXGroup;
+			children = (
+				9CC4EDC92B6E556300426774 /* SearchResultsViewController.swift */,
+				9CC4EDD22B6E65A000426774 /* SearchResultCell.swift */,
+			);
+			path = SearchResults;
+			sourceTree = "<group>";
+		};
+		9CC989DA2B83DDB000BB2311 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C72CFD12B6FADF30024AE65 /* UploadNewCatResponce.swift */,
+				9CC4EDD42B6E719500426774 /* CatsSearchResult.swift */,
+				9CC4EDDA2B6E761600426774 /* Cat.swift */,
+				9CC4EDD82B6E760A00426774 /* CatByIdResponce.swift */,
+				9CC4EDD62B6E732F00426774 /* RatingResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E817DFB1E5F16526557EE452 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181B5B6FD731959884C412E0 /* Pods_meowle.framework */,
+				0C632AAC971457729C7554FD /* Pods_meowle_meowleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA47173B40DE6B96AABFDA11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78C1794913C2C3545A00949E /* Pods-meowle.debug.xcconfig */,
+				54C47CB863A90DA7C1BBB964 /* Pods-meowle.release.xcconfig */,
+				74BBB720B26110DA59C25107 /* Pods-meowle-meowleUITests.debug.xcconfig */,
+				DFF3AA313511264F58766A50 /* Pods-meowle-meowleUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C6FC8102B5BCC6D00DACA64 /* meowle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C6FC83B2B5BCC6E00DACA64 /* Build configuration list for PBXNativeTarget "meowle" */;
+			buildPhases = (
+				12CE1751134F82A8989D92EF /* [CP] Check Pods Manifest.lock */,
+				9C6FC80D2B5BCC6D00DACA64 /* Sources */,
+				9C6FC80E2B5BCC6D00DACA64 /* Frameworks */,
+				9C6FC80F2B5BCC6D00DACA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meowle;
+			productName = meowle;
+			productReference = 9C6FC8112B5BCC6D00DACA64 /* meowle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C6FC8302B5BCC6E00DACA64 /* meowleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C6FC8412B5BCC6E00DACA64 /* Build configuration list for PBXNativeTarget "meowleUITests" */;
+			buildPhases = (
+				F11E9F5871E90467767C3CCB /* [CP] Check Pods Manifest.lock */,
+				9C6FC82D2B5BCC6E00DACA64 /* Sources */,
+				9C6FC82E2B5BCC6E00DACA64 /* Frameworks */,
+				9C6FC82F2B5BCC6E00DACA64 /* Resources */,
+				9819318AB3F2ACD6CA06B5FA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C6FC8332B5BCC6E00DACA64 /* PBXTargetDependency */,
+			);
+			name = meowleUITests;
+			productName = meowleUITests;
+			productReference = 9C6FC8312B5BCC6E00DACA64 /* meowleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C6FC8092B5BCC6D00DACA64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9C6FC8102B5BCC6D00DACA64 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9C6FC8302B5BCC6E00DACA64 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9C6FC8102B5BCC6D00DACA64;
+					};
+				};
+			};
+			buildConfigurationList = 9C6FC80C2B5BCC6D00DACA64 /* Build configuration list for PBXProject "meowle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C6FC8082B5BCC6D00DACA64;
+			productRefGroup = 9C6FC8122B5BCC6D00DACA64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C6FC8102B5BCC6D00DACA64 /* meowle */,
+				9C6FC8302B5BCC6E00DACA64 /* meowleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C6FC80F2B5BCC6D00DACA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6FC8212B5BCC6E00DACA64 /* LaunchScreen.storyboard in Resources */,
+				9C6FC81E2B5BCC6E00DACA64 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6FC82F2B5BCC6E00DACA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A60BFB2BCA81F700B9C499 /* core_cats_get_by_id.json in Resources */,
+				37A60C032BCA84C500B9C499 /* core_cats_save-description.json in Resources */,
+				37DCE6CC2BC5BC8D00710D90 /* rating.json in Resources */,
+				37A60C052BCA851000B9C499 /* likes_cats_14203_likes.json in Resources */,
+				9C61244D2BC55AB20079CE48 /* likes_cats_rating.json in Resources */,
+				9C87A1DD2BA714DF005771DF /* core_cats_search.json in Resources */,
+				9C87A1DF2BA72055005771DF /* core_cats_allByLetter.json in Resources */,
+				37A60C012BCA849000B9C499 /* core_cats_add.json in Resources */,
+				37A60BFD2BCA840300B9C499 /* photos_cats_15026_photos.json in Resources */,
+				37A60BFF2BCA845B00B9C499 /* photos_cats_17023_upload.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12CE1751134F82A8989D92EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meowle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9819318AB3F2ACD6CA06B5FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meowle-meowleUITests/Pods-meowle-meowleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meowle-meowleUITests/Pods-meowle-meowleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meowle-meowleUITests/Pods-meowle-meowleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F11E9F5871E90467767C3CCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meowle-meowleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C6FC80D2B5BCC6D00DACA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC4EDD72B6E732F00426774 /* RatingResponse.swift in Sources */,
+				9CC989DC2B83DDEE00BB2311 /* ImageResolver.swift in Sources */,
+				9CC4EDD32B6E65A000426774 /* SearchResultCell.swift in Sources */,
+				9CC4EDD52B6E719500426774 /* CatsSearchResult.swift in Sources */,
+				9CC4EDDB2B6E761600426774 /* Cat.swift in Sources */,
+				9CC989DE2B83DE4A00BB2311 /* DispatchQueue+performOnMain.swift in Sources */,
+				9C72CFD02B6FA11D0024AE65 /* RatingCell.swift in Sources */,
+				9C72CFD22B6FADF30024AE65 /* UploadNewCatResponce.swift in Sources */,
+				9C87A1E92BA8D9FC005771DF /* FavCache.swift in Sources */,
+				9CC4EDD92B6E760A00426774 /* CatByIdResponce.swift in Sources */,
+				9CFC75192B9751E00069705F /* AuthViewController.swift in Sources */,
+				9C72CFD42B6FB5510024AE65 /* CatViewController.swift in Sources */,
+				9C6FC8462B5BD53800DACA64 /* RatingViewController.swift in Sources */,
+				9CC4EDCC2B6E565C00426774 /* AddCatViewController.swift in Sources */,
+				9CC4EDCA2B6E556300426774 /* SearchResultsViewController.swift in Sources */,
+				9C6FC8192B5BCC6D00DACA64 /* SearchViewController.swift in Sources */,
+				9CC4EDCE2B6E57F500426774 /* NetworkService.swift in Sources */,
+				9C6FC8152B5BCC6D00DACA64 /* AppDelegate.swift in Sources */,
+				9CFC751B2B9758020069705F /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6FC82D2B5BCC6E00DACA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3735C1712BCBE3B3000CA7AD /* AddNewCatPage.swift in Sources */,
+				9C87A1E32BA72261005771DF /* BasePage.swift in Sources */,
+				37A60C072BCA8A8600B9C499 /* AddNewCatUITests.swift in Sources */,
+				37DCE6C62BC57EBA00710D90 /* MeowleSearchCatUITests.swift in Sources */,
+				37DCE6CA2BC58F9F00710D90 /* MeowleRatingPage.swift in Sources */,
+				37DCE6C82BC58F8200710D90 /* MeowleRatingUITests.swift in Sources */,
+				37DCE6C42BC57B2400710D90 /* MeowleSearchCatPage.swift in Sources */,
+				37DCE6C22BC57A2D00710D90 /* MeowleAuthPage.swift in Sources */,
+				9C6FC8382B5BCC6E00DACA64 /* meowleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C6FC8332B5BCC6E00DACA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C6FC8102B5BCC6D00DACA64 /* meowle */;
+			targetProxy = 9C6FC8322B5BCC6E00DACA64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C6FC81F2B5BCC6E00DACA64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C6FC8202B5BCC6E00DACA64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C6FC8392B5BCC6E00DACA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C6FC83A2B5BCC6E00DACA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C6FC83C2B5BCC6E00DACA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C1794913C2C3545A00949E /* Pods-meowle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2SJAW5HQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = meowle/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.t.begishev.meowle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9C6FC83D2B5BCC6E00DACA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C47CB863A90DA7C1BBB964 /* Pods-meowle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2SJAW5HQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = meowle/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.t.begishev.meowle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9C6FC8422B5BCC6E00DACA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BBB720B26110DA59C25107 /* Pods-meowle-meowleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2SJAW5HQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.t.begishev.meowleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meowle;
+			};
+			name = Debug;
+		};
+		9C6FC8432B5BCC6E00DACA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF3AA313511264F58766A50 /* Pods-meowle-meowleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2SJAW5HQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.t.begishev.meowleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meowle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C6FC80C2B5BCC6D00DACA64 /* Build configuration list for PBXProject "meowle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6FC8392B5BCC6E00DACA64 /* Debug */,
+				9C6FC83A2B5BCC6E00DACA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C6FC83B2B5BCC6E00DACA64 /* Build configuration list for PBXNativeTarget "meowle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6FC83C2B5BCC6E00DACA64 /* Debug */,
+				9C6FC83D2B5BCC6E00DACA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C6FC8412B5BCC6E00DACA64 /* Build configuration list for PBXNativeTarget "meowleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6FC8422B5BCC6E00DACA64 /* Debug */,
+				9C6FC8432B5BCC6E00DACA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C6FC8092B5BCC6D00DACA64 /* Project object */;
+}

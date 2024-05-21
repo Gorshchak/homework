@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "title": "A",
+      "cats": [
+        {
+          "id": 14978,
+          "name": "Кот №1",
+          "description": "Кот №1",
+          "tags": null,
+          "gender": "unisex",
+          "likes": 3,
+          "dislikes": 0,
+          "count_by_letter": "79"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 79
+    },
+    {
+      "title": "Б",
+      "cats": [
+        {
+          "id": 15955,
+          "name": "Кот №2",
+          "description": "Кот №2",
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "44"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 44
+    },
+    {
+      "title": "В",
+      "cats": [
+        {
+          "id": 15103,
+          "name": "Кот №3",
+          "description": "Кот №3",
+          "tags": null,
+          "gender": "unisex",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "53"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 53
+    }
+  ],
+  "count_output": 165,
+  "count_all": 1468
+}

@@ -1,0 +1,20 @@
+{
+  "groups": [
+    {
+      "title": "Б",
+      "cats": [
+        {
+          "id": 15204,
+          "name": "Батон",
+          "description": "кот",
+          "tags": null,
+          "gender": "male",
+          "likes": 5,
+          "dislikes": 0
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "count": 1
+}
